@@ -2,14 +2,14 @@
 # print("Hello" + name + ".")
 # print(f"hello, {name}.")?
 
-def greet(name):
-    print(f"Hello, {name}")
+def greet(fn,ln):
+    print(f"Hello, {fn} {ln}")
 
-greet ("Nandhy")
-greet ("praveen")
+greet ("Nandhy","praveen")
+greet ("praveen", "gandhi")
 
-Username = input("enter your username: ")
-greet("username")
+userName = input("enter your username: ")
+greet(userName,"praveen")
 
 # num1 =int(input("number 1:"))
 # num2 =int(input("number 2:"))
